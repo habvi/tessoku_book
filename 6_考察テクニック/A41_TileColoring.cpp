@@ -19,7 +19,6 @@ int main(void) {
             now = S[i];
             ct = 1;
         }
-        cout << i << " " << now << " " << ct << endl;
         if (ct >= 3) {
             cout << "Yes" << endl;
             return 0;
