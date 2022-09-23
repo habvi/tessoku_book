@@ -14,7 +14,7 @@ int main(void) {
     vector<int> left(N, 0), right(N, 0);
     left[0] = A[0];
     right[N - 1] = A[N - 1];
-    rep(i ,1, N) {
+    rep(i, 1, N) {
         left[i] = max(left[i - 1], A[i]);
         right[N - i - 1] = max(right[N - i], A[N - i - 1]);
     }
