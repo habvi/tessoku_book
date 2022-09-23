@@ -7,6 +7,12 @@ using namespace std;
 int main(void) {
     int N;
     cin >> N;
+
+    if (N == 1) {
+        cout << 1 << endl;
+        return 0;
+    }
+
     string S;
     cin >> S;
 
