@@ -2,9 +2,9 @@ def gcd(a, b):
     while not (a == b == 1):
         ans.append((a, b))
         if a > b:
-            a, b = a - b, b
+            a -= b
         else:
-            a, b = a, b - a
+            b -= a
 
 
 X, Y = map(int, input().split())

@@ -1,5 +1,4 @@
 def is_ok(x):
-    print(x)
     return x ** 3 + x <= N
 
 def bisect(ng, ok):
