@@ -12,7 +12,6 @@ int main(void) {
     }
 
     const int INF = 1001001001;
-    int ans = INF;
     vector<int> dp(N, INF);
     dp[0] = 0;
     rep(i, 1, N) {
