@@ -9,3 +9,4 @@
 | 10.7 総合問題（7） |  | [A77](A77_YokanParty.py) |
 | 力試し問題 | [C01](C01_TaxRate.cpp) [C02](C02_TwoBalls.cpp) [C03](C03_StockQueries.cpp) [C04](C04_DivisorEnumeration.cpp) |  |
 |  | [C05](C05_LuckyNumbers.cpp) [C06](C06_RegularGraph.cpp) [C07](C07_ALGO-MARKET.cpp) |  |
+|  | [C09](C09_Taro'sVacation.cpp) |  |
